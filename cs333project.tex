@@ -1,0 +1,80 @@
+\documentclass[12pt, letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{indentfirst}
+
+\begin{document}
+
+\title{\huge\textbf{CS 333 Project Report}}
+\author{
+Egemen İşcan\\
+egemen.iscan@ozu.edu.tr
+\and
+Hasan Erdem Bilgin\\
+hasan.bilgin@ozu.edu.tr
+\and
+Yamaç Demirkan Yılmaz\\
+demirkan.yilmaz@ozu.edu.tr
+\and
+Peker Çelik\\
+peker.celik@ozu.edu.tr
+}
+\date{May 2021}
+
+\renewcommand\thesection{\Roman{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+
+\maketitle
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+In this article, we will discuss a new way of transmitting and receiving any kind of information in an electronic environment with a simple but very secure encryption method. It is very crucial to preserve the validity of a message when transmitting it to its correspondent. Paper messages have two important qualifications. The first one is that they are private, covered in an envelope and they are sealed, so nobody except the correspondent cannot read them. The second is that they are signed by an authority, therefore the correspondent would know that this message is actually coming from the intended sender. All our effort is to protect these properties of a message while transmitting and receiving them in an electronic system by developing a new encryption method.
+\par
+To ensure these two crucial properties of a message, we have come up with a public key cryptography implementation, which was originally proposed by Diffie and Hellman. Public key cryptography means that each user, for instance, the sender and the receiver, stores a unique encryption method in a publicly visible file. Again, each user would have to come up with a unique decryption method to decrypt the messages, but this time, they will store their decryption methods in a secret place.
+\par
+Different from Diffie and Hellman’s proposal, we are going to present an implementation of the system in action in the upcoming sections.
+
+\section{Background}
+
+In this section, we will briefly describe the Public-Key Cryptosystems and the advantages that provide us like privacy and signature.
+
+\subsection{Public-Key Cryptosystems}
+
+Public-Key Cryptosystems have two main procedures. Those are encryption (E) and decryption (D). Encryption procedure (E) is published publicly for each user. However, the decryption procedure (D) must be kept private. These procedures have the following four properties:\\
+
+\renewcommand{\theenumi}{\alph{enumi}}
+\begin{enumerate}
+\item   
+Deciphering an encrypted message (M’) results in getting the original message. In math notation:
+\begin{equation}
+D(E(M)) = M
+\end{equation}
+\[ D(M’) = M \]   
+    
+\item
+Both E and D are computed easily.
+
+\item
+Revealing E publicly does not cause any vulnerability because revealing E does not get computed D easier. This means that only the receiver who has D can see the messages encrypted with E.
+
+\item
+Because of the mathematical concept of Public-Key Cryptosystems also, E and D is reverse, following notation is also correct.
+\begin{equation}
+E(D(M)) = M
+\end{equation}
+\end{enumerate}
+
+Procedures have a general method and a secret key. The method encrypts the message (M) to the form called ciphertext (C). Everybody can use the same method unless the key is revealed. If so, vulnerability occurs. Presenting E does not provide any practical approach to find out D based on the workload of the computation.
+\par
+Any function that satisfies (a) - (c) is known as the “trap-door one-way function”. Trap-door functions are the functions that cannot be reversed. Therefore the only way of revealing the function is brute force, which is impractical. The property (d) is necessary for signing the message. In the next chapters, we will show some scenarios that we suppose Alice(A) and Bob(B) use this cryptosystem to communicate and they use EA, DA, EB, DB.
+
+
+
+\end{document}
