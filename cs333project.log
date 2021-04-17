@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.15)  15 APR 2021 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.15)  17 APR 2021 18:20
 entering extended mode
 **./cs333project.tex
 (cs333project.tex
@@ -139,34 +139,27 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write3
 \openout3 = `cs333project.toc'.
 
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-[3]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 59.
-
-[4] (cs333project.aux) ) 
+ [2] [3] [4] [5] [6] [7] [8] [9] (cs333project.aux) ) 
 Here is how much of TeX's memory you used:
- 617 strings out of 479334
- 10887 string characters out of 2858509
- 296376 words of memory out of 3000000
+ 623 strings out of 479334
+ 10992 string characters out of 2858509
+ 297376 words of memory out of 3000000
  18101 multiletter control sequences out of 15000+200000
- 434469 words of font info for 86 fonts, out of 3000000 for 9000
+ 437055 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,50p,797b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dv
-ips/base/8r.enc}<C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on cs333project.pdf (4 pages, 54351 bytes).
+{C:/Users/HP/AppData/Local
+/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/HP/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/HP/AppData/
+Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on cs333project.pdf (9 pages, 85015 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
