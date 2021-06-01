@@ -5,3 +5,14 @@
 \contentsline {subsection}{\numberline {C.}Privacy}{5}{}%
 \contentsline {section}{\numberline {III.}Our Encryption and Decryption Methods}{6}{}%
 \contentsline {section}{\numberline {IV.}The Underlying Mathematics}{7}{}%
+\contentsline {section}{\numberline {V.}Algorithms}{9}{}%
+\contentsline {subsection}{\numberline {A.}How to Encrypt and Decrypt Efficiently}{9}{}%
+\contentsline {subsection}{\numberline {B.}How to Find Large Prime Numbers}{10}{}%
+\contentsline {subsection}{\numberline {C.}How to Choose $d$}{11}{}%
+\contentsline {subsection}{\numberline {D.}How to Compute $e$ from $d$ and $\phi $(n)}{12}{}%
+\contentsline {section}{\numberline {VI.}Security of the Method: Cryptanalytic Approaches}{12}{}%
+\contentsline {subsection}{\numberline {A.}Factoring $n$}{13}{}%
+\contentsline {subsection}{\numberline {B.}Computing $\phi $(n) Without Factoring $n$}{14}{}%
+\contentsline {subsection}{\numberline {C.}Determining $d$ Without Factoring $n$ or Computing $\phi (n)$}{14}{}%
+\contentsline {subsection}{\numberline {D.}Computing $D$ in Some Other Way}{14}{}%
+\contentsline {subsection}{\numberline {E.}Conclusions}{15}{}%
