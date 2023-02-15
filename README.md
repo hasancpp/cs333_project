@@ -1,4 +1,4 @@
-# CS333 Project Spring 2021
+# Obtaining-Digital-Signatures-and-Public-Key-Cryptosystems
 
 This project is focused on the implementation of a method for obtaining digital signatures and public-key cryptosystems. The implementation code can be found under the `App` folder, while the final report is available under the `LaTeX` folder.
 
